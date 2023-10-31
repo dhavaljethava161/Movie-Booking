@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(cors());
 
-app.use("/user", routes.user);
+app.use("/movie", routes.movie);
 app.use("/", routes.auth);
 
 const port = config.port || 3000;

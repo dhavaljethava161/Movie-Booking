@@ -1,3 +1,3 @@
-import user from "./user";
+import movie from "./movie";
 import auth from "./auth";
-export const routes = { user, auth };
+export const routes = { movie, auth };

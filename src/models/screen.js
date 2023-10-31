@@ -6,4 +6,4 @@ const screenSchema = mongoose.Schema({
     enum: [1, 2, 3, 4, 5],
   },
   time:{}
-});
+},{ timestamps: true });
