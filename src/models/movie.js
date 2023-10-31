@@ -8,7 +8,6 @@ const movieSchema = mongoose.Schema({
     executive: Number,
     premium: Number,
   },
-  seats: Number,
   theater: {
     type: String,
     required: true,
